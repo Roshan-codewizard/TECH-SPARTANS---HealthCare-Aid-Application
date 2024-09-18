@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health-Sage | Your Health, Our Priority</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">Health-Sage</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#disease-prediction">Disease Prediction</a></li>
+                <li><a href="#diet-plan">Diet Plan</a></li>
+                <li><a href="#insurance">Insurance</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Empowering Your Health with Advanced AI</h1>
+                <p>Your personalized healthcare companion, providing insights at your fingertips.</p>
+                <a href="#disease-prediction" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Disease Prediction Section -->
+<section id="disease-prediction" class="section">
+    <div class="container">
+        <h2>Disease Prediction</h2>
+        <p>Input your symptoms to receive AI-driven predictions and medication suggestions.</p>
+        <form id="disease-form" class="form">
+            <div class="form-group">
+                <label for="symptoms">Enter Symptoms:</label>
+                <input type="text" id="symptoms" name="symptoms" placeholder="e.g., headache, fever" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Predict</button>
+        </form>
+        <div id="disease-result" class="result"></div>
+    </div>
+</section>
+
+    <!-- Personalized Diet Plan Section -->
+    <section id="diet-plan" class="section bg-light">
+        
+         <div class="container">
+            
+             <h2>Personalized Diet Plan</h2>
+            
+                  <p>Calculate your BMI and get a diet plan tailored to your body type.</p>
+            
+                         <form id="bmi-form" class="form">
+                
+                             <div class="form-group">
+                    
+                                  <label for="height">Height (cm):</label>
+                    
+                                        <input type="text" id="height" name="height" placeholder="Enter your height" required>
+               
+                             </div>
+                
+                             <div class="form-group">
+                    
+                                  <label for="weight">Weight (kg):</label>
+                   
+
+                                        <input type="text" id="weight" name="weight" placeholder="Enter your weight" required>
+               
+                             </div>
+                
+                                 <button type="submit" class="btn btn-secondary">Calculate BMI</button>
+            
+                         </form>
+           
+                             <div id="bmi-result" class="result"></div>
+       
+         </div>
+    
+     </section>
+
+    <!-- Insurance Section -->
+    <section id="insurance" class="section">
+        <div class="container">
+            <h2>Insurance Plans</h2>
+            <p>Find insurance plans tailored to your region and smoking status.</p>
+            <form id="insurance-form" class="form">
+                <div class="form-group">
+                    <label for="region-insurance">Enter Region:</label>
+                    <input type="text" id="region-insurance" name="region-insurance" placeholder="Enter your region" required>
+                </div>
+                <div class="form-group">
+                    <label for="smoking-insurance">Smoking Status:</label>
+                    <select id="smoking-insurance" name="smoking-insurance" required>
+                        <option value="">Select Status</option>
+                        <option value="non-smoker">Non-Smoker</option>
+                        <option value="smoker">Smoker</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-secondary">Find Insurance</button>
+            </form>
+            <div id="insurance-result" class="result"></div>
+        </div>
+    </section>
+
+ <!-- About Us Section -->
+    
+<section id="about" class="section bg-dark">
+        
+<div class="container">
+            
+<h2>About Us</h2>
+            
+<div class="about-content">
+                
+<div class="about-text">
+                    
+<p>At Health-Sage, we believe in harnessing the power of technology to empower individuals to take charge of their health. Our platform delivers AI-driven insights to predict diseases, recommend medications, and provide personalized diet plans.</p>
+                    
+<p>Founded by a passionate team, Health-Sage is committed to making healthcare more accessible and personalized.</p>
+                
+</div>
+                
+<div class="about-image">
+                    
+<img src="..\static\digital-health-1.jpg" alt="Health-Sage Team" class="responsive-img">
+                
+</div>
+            
+</div>
+        
+</div>
+    
+</section>
+
+    
+<!-- Contact Us Section -->
+    
+<section id="contact" class="section">
+        
+<div class="container">
+            
+<h2>Contact Us</h2>
+            
+<p>We’d love to hear from you! Whether you have a question or need support, feel free to reach out to us.</p>
+            
+<form id="contact-form" class="form">
+                
+<div class="form-group">
+                    
+<label for="name">Name:</label>
+                    
+<input type="text" id="name" name="name" placeholder="Your full name" required>
+                
+</div>
+                
+<div class="form-group">
+                    
+<label for="email">Email:</label>
+                    
+<input type="email" id="email" name="email" placeholder="Your email address" required>
+                
+</div>
+                
+<div class="form-group">
+                    
+<label for="message">Message:</label>
+                    
+<textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                
+</div>
+                
+<button type="submit" class="btn btn-primary">Send Message</button>
+            
+</form>
+        
+</div>
+    
+</section>
+
+
+    <!-- Remaining Sections (Resources, About Us, Contact Us, Footer) remain unchanged -->
+
+    <!-- Footer Section -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Health-Sage. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../static/scripts.js"></script>
+</body>
+
+</html>

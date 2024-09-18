@@ -1,0 +1,14 @@
+symptoms,disease
+"headache, fever",cold
+"cough, sore throat",cold
+"fatigue, fever",flu
+"nausea, vomiting",food poisoning
+"headache, nausea",migraine
+"muscle pain, fatigue",flu
+"diarrhea, stomach pain",food poisoning
+"cough, fatigue",asthma
+"chest pain, shortness of breath",heart attack
+"fever, rash",measles
+"fever, headache",malaria
+"swelling, joint pain",arthritis
+"high blood sugar, frequent urination",diabetes
